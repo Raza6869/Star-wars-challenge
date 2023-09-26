@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.finn-card {
+  @apply h-[406px] min-w-[308px] bg-[url('../images/finn-background.png')] rounded-[16px] flex justify-center items-center opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300;
+}
+
+.bb8-card {
+  @apply h-[406px] min-w-[308px] bg-[url('../images/bb8-background.png')] rounded-[16px] flex justify-center items-center opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300;
+}
+
+.card-text {
+  color: transparent;
+  -webkit-text-stroke: #312d74 1px;
+  text-align: center;
+  font-family: Source Sans 3;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  text-transform: uppercase;
+  background-color: transparent;
+}

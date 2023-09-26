@@ -1,7 +1,10 @@
-import Image from "next/image";
+import Card from "../components/Card";
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-full bg-gradient-to-tr from-background-initial from-[-2.74%] to-background-final to-[101.6%]"></main>
+    <main className="flex gap-4 justify-center items-center h-screen w-full bg-gradient-to-tr from-background-initial to-background-final overflow-hidden">
+      <Card title="Finn" style="finn-card" />
+      <Card title="bb-8" style="bb8-card" />
+    </main>
   );
 }
