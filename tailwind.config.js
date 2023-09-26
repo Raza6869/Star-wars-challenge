@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "purple-base": "#ECE4EF",
-        "purple-text": "#D8CEDE",
-        "purple-secondary-text": "#9C83A7",
-        "purple-cards-titles": "#312D74",
+        "purple-primary": "#D8CEDE",
+        "rey-title": "#ECE4EF",
+        "purple-secondary": "#9C83A7",
+        "cards-title": "#312D74",
         "background-initial": "#030422",
         "background-final": "#090114",
       },
