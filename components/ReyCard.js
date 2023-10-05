@@ -5,17 +5,17 @@ import Rey from "@/images/rey-charachter.png";
 
 export default function ReyCard() {
   return (
-    <div className="min-w-[436px] z-50 -m-28 h-[586px] bg-[url('../images/rey-background.png')] rounded-[20px] px-8 py-10 flex flex-col gap-[60px] opacity-90 hover:opacity-100 scale-90">
-      <div className="flex flex-col gap-4 items-start text-purple-primary w-[300px]">
-        <h1 className="uppercase text-rey-title text-4xl font-bold tracking-[2.56px]">
+    <div className="rey-card">
+      <div className="flex flex-col gap-4 items-start text-purple-primary">
+        <h1 className="uppercase text-rey-title text-2xl sm:text-3xl font-bold tracking-[2.56px]">
           Rey Skywalker
         </h1>
-        <p className="text-sm">
+        <p className=" text-xs sm:text-sm w-52 sm:w-[300px">
           Era uma catadora de sucata que descobriu ser sensível à Força durante
           sua busca ao lendário Mestre Jedi Luke Skywalker.
         </p>
       </div>
-      <div className="w-[200px] flex flex-col gap-4">
+      <div className="w-36 sm:w-[200px] flex flex-col gap-4">
         <Info
           title="Filmes"
           info="The Force Awakens, The Last Jedi, The Rise of Skywalker & Forces of Destiny"
@@ -28,7 +28,7 @@ export default function ReyCard() {
       <Image
         src={Rey}
         alt="Rey Skywalker"
-        className=" transition-all duration-700 absolute ml-20 -mt-3 hover:ml-28"
+        className=" transition-all duration-700 absolute sm:ml-[70px] -mt-12 sm:mt-0 scale-90 sm:scale-100 hover:sm:ml-28 hover:sm:-mt-3 hover:sm:scale-105"
       />
     </div>
   );
